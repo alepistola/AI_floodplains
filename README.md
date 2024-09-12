@@ -1,7 +1,7 @@
 # AI Floodplains
-Code repository for the paper "AI for yesterday’s landscapes: integrating CORONA satellite imagery for the identification of Mesopotamian archaeological sites through CNN models" submitted to PLOS ONE
+Code repository for the paper "A Thousand Years of Future: New Archaeological Discoveries in the Mesopotamian Floodplain with AI and CORONA Imagery" submitted to PLOS ONE
 
-This repository contains the code described in the paper "AI for yesterday’s landscapes: integrating CORONA satellite imagery for the identification of Mesopotamian archaeological sites through CNN models" by A.Pistola, V.Orrù, N.Marchetti and M.Roccetti.
+This repository contains the code described in the paper "A Thousand Years of Future: New Archaeological Discoveries in the Mesopotamian Floodplain with AI and CORONA Imagery" by A.Pistola, V.Orrù, N.Marchetti and M.Roccetti.
 
 The Python script stampa_imm_qgis is a script to be used inside QGIS. It contains functions to save the input images and target masks for the segmentation models starting from the shapefiles included in the zip folder and using a Bing basemaps and Corona basemaps (https://corona.cast.uark.edu/atlas). Notice that when saving the input images all layers other than the basemap should be set to invisible. On the other hand when saving masks site shapes should be the only visible layer and should be styled as all black filled polygons (a QGIS style is included)
 
